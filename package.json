@@ -1,0 +1,28 @@
+{
+  "name": "babel-example",
+  "version": "1.0.0",
+  "description": "Simple babelJs environment example",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d out",
+    "watch": "babel --watch src -d out"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lynconEBB/babelJS-example.git"
+  },
+  "author": "Lyncon Baez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lynconEBB/babelJS-example/issues"
+  },
+  "homepage": "https://github.com/lynconEBB/babelJS-example#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5"
+  }
+}
