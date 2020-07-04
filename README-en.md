@@ -7,7 +7,7 @@ This repository aims to provide a JavaScript development environment capable of 
 - NPM
 - Git
 
-### Instalação
+### Installation
 
 
 First clone this repository in the location you find most appropriate using the following command:
@@ -34,7 +34,7 @@ Or if you want to write your codes and automatically convert them every time you
 npm run watch
 ```
 
-### Configuração
+### Configuration
 
 Any changes to the Babel settings can be made in the [babel.config.json](https://github.com/lynconEBB/babelJS-example/blob/master/babel.config.json) file.
 
